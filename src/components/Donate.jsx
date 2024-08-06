@@ -9,7 +9,7 @@ const Donate = () => {
   const [phone, setPhone] = useState("");
   const [amount, setAmount] = useState("");
   const [message, setMessage] = useState("");
- const baseurl="https://backend-ngo.onrender.com";
+ const baseurl="https://backend-ngo-3.onrender.com";
   const handleDonate = async (e) => {
     e.preventDefault();
     try {

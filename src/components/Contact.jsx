@@ -7,7 +7,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const baseurl="https://backend-ngo.onrender.com";
+  const baseurl="https://backend-ngo-3.onrender.com";
   const handleSendMessage = async (e) => {
     e.preventDefault();
     await axios
