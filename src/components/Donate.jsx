@@ -9,12 +9,12 @@ const Donate = () => {
   const [phone, setPhone] = useState("");
   const [amount, setAmount] = useState("");
   const [message, setMessage] = useState("");
-
+ const baseurl="https://backend-ngo.onrender.com";
   const handleDonate = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/v1/donate",
+        `${baseurl}/api/v1/donate`,
         { name, email, phone, amount, message },
         {
           headers: { "Content-Type": "application/json" },

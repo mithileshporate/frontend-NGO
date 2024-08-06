@@ -7,12 +7,12 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-
+  const baseurl="https://backend-ngo.onrender.com";
   const handleSendMessage = async (e) => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4000/api/v1/message/send",
+        `${baseurl}/api/v1/message/send`,
         { name, email, phone, message },
         {
           withCredentials: true,
