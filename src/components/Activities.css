@@ -1,0 +1,57 @@
+.activities {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .activity {
+    display: flex;
+    flex-direction: row-reverse; /* Alternate row-reverse and row to switch image and text positions */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure images don't overflow their containers */
+  }
+  
+  .activity:nth-child(even) {
+    flex-direction: row; /* Switch direction for even-numbered activities */
+  }
+  
+  .activity img {
+    flex: 1; /* Allow images to take up remaining space */
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+    border-radius: 10px;
+  }
+  
+  .activity .content {
+    flex: 1; /* Ensure content takes up remaining space */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .activity h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .activity .description {
+    margin-top: 10px;
+  }
+  
+  .activity .description p {
+    margin: 5px 0;
+  }
+  
+  .activity .description .youtube-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .activity .description .youtube-link a:hover {
+    text-decoration: underline;
+  }
+  

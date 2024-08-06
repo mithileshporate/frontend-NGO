@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  .banner {
+    flex: 1;
+    margin-left: 20px; /* Adjust the value as needed to shift content to the right */
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    color: #ffd700; /* or any color you want */
+  }
+  
+  .banner h3 {
+    font-size: 2rem;
+    color: #1a1a1a; /* or any color you want */
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    color: #4f4f4f; /* or any color you want */
+  }
+  
+  .btn {
+    background-color: #ffcc00; /* or any color you want */
+    color: #1a1a1a;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  

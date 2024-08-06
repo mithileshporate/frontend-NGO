@@ -1,0 +1,60 @@
+/* Style for the Qualities component */
+.qualities {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .qualities h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .qualities .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .qualities .container .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    /* width: 300px; */
+    transition: transform 0.3s ease;
+  }
+  
+  .qualities .container .card .img-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .qualities .container .card .img-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .content .title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007b5e;
+    text-align: center;
+  }
+  
+ .content .description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .qualities .container .card .content .description h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+  }
+  
